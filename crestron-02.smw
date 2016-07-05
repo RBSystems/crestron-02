@@ -1113,13 +1113,26 @@ C5=649
 [
 ObjTp=Dv
 Nm=MC3IR_Port
-H=645.649
+H=645
 PrH=644
 ObjVer=1
 SlC=230
 DvF=Sl
 SlF=Ex
-Ad=01,02,03,04,05
+Ad=01
+mC=1
+C1=707
+]
+[
+ObjTp=Dv
+Nm=MC3IR_Port
+H=646.649
+PrH=644
+ObjVer=1
+SlC=230
+DvF=Sl
+SlF=Ex
+Ad=02,03,04,05
 ]
 [
 ObjTp=Dv
@@ -1469,6 +1482,19 @@ DbH=2
 EtH=1
 ]
 [
+ObjTp=Dv
+Nm=Apple AppleTV (4th Generation) (Infrared Control)
+H=707
+PrH=645
+DvC=133
+ObjVer=1
+Ad=01
+SmH=26
+RelStat=Release
+ProdLine=2-Series
+DbH=3
+]
+[
 ObjTp=Cm
 H=1
 DvH=628
@@ -1510,6 +1536,17 @@ Whc=3
 Mnf=Crestron
 Mdl=XPanel 2.0 Smart Graphics
 Tpe=Smart Graphics XPanel 2.0
+]
+[
+ObjTp=Db
+H=3
+DvH=707
+Whc=1
+Mnf=Apple
+Mdl=AppleTV (4th Generation)
+Tpe=Digital Video Server
+DrF=Apple_AppleTV_4th_Generation.ir
+CID=11220
 ]
 [
 ObjTp=FP
@@ -1737,6 +1774,8 @@ DvH=644
 PrH=1
 CF=2
 Cmn1=C2I-MC3-IR5
+mC=1
+C1=26
 ]
 [
 ObjTp=Sm
@@ -1915,4 +1954,25 @@ mO=64
 tO=96
 mP=1
 P1=255d
+]
+[
+ObjTp=Sm
+H=26
+SmC=107
+Nm=Crestron DB IR-controlled device
+ObjVer=1
+DvH=707
+PrH=14
+CF=2
+n1I=8
+Cmn1=Apple AppleTV (4th Generation) (Infrared Control)
+mI=8
+mP=7
+P1=UP_ARROW
+P2=DOWN_ARROW
+P3=LEFT_ARROW
+P4=RIGHT_ARROW
+P5=SELECT
+P6=MENU
+P7=PLAY/PAUSE
 ]
